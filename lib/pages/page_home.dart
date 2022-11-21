@@ -5,6 +5,30 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('homepage'),);
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: [
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            height: 320,
+            color: Colors.green,
+            child: const Center(
+              child: Text('best score'),
+            ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            height: 320,
+            color: Colors.green,
+            child: const Center(
+              child: Text('calender'),
+            ),
+          ),
+        ),
+      ],
+    );
   }
 }
