@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Container(
-            height: 320,
+            height: 250,
             color: Colors.green,
             child: const Center(
               child: Text('best score'),
@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Container(
-            height: 320,
+            height: 250,
             color: Colors.green,
             child: const Center(
               child: Text('calender'),
