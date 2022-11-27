@@ -17,3 +17,7 @@ const inputDecorationForSearchPage = InputDecoration(
   floatingLabelStyle: TextStyle(color: Colors.green),
   prefixIcon: Icon(Icons.search),
 );
+
+///card for search page
+final RoundedRectangleBorder cardShape =
+RoundedRectangleBorder(borderRadius: BorderRadius.circular(12));

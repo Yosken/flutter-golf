@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_golf/model/search_page_text_field.dart';
+import 'package:flutter_golf/pages/search_page/model/search_page_text_field.dart';
 
 ///page_search
 final Widget searchPageTextField = Padding(
